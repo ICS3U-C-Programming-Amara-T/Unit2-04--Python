@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 
-# Created By: Amara Tie 
+# Created By: Amara Tie
 
 # Date: Month March 5, 2025
 
-# Calculating the surface area and perimeter of a circle. 
+# Calculating the surface area and perimeter of a circle.
 import math
 
+
 def main():
-    # Get Radius 
+    # Get Radius
     radius = float(input("Enter the radius of the circle (mn): "))
 
     # Calculate the area and perimeter
@@ -21,5 +22,5 @@ def main():
     print("Perimeter = {} mn^2".format(perimeter))
 
 
-if __name__=="__main__":
-     main()
+if __name__ == "__main__":
+    main()
